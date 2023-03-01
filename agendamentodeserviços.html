@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="utf-8">
+	<title> Agendamento de Serviços </title>
+
+</head>
+
+<body>
+	<center><h1>Espaço Pet - Pet Shop</h1></center>
+	
+			<nav><a href="index.html">Home</a>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="quemsomos.html">Quem somos</a>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp		
+			<a href="produtos.html">Produtos</a>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="contato.html">Contatos </a>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="agendamentodeserviços.html">Agendamento de Serviços </a> </nav>
+<br>
+<br>
+			
+	<h2> Agendamento de Serviços  </h2>
+	
+	<form method="post" id="contato" action="obrigadoagendamento.html">
+	
+	<p>
+			<label for="nome"> Nome do tutor: </label>
+			<input type="text"
+					name="nome"
+					id="nome"
+					placeholder="Digite seu nome"
+					required> 
+		</p>
+		
+		
+		<p>
+			<label for="nome"> Nome do Pet: </label>
+			<input type="text"
+					name="nome"
+					id="nome"
+					placeholder="Digite o nome do seu pet "
+					required> 
+		</p>
+		
+			
+		<p>
+			<label for=" email"> Email:</label>
+			<input type="email"
+					name="email"
+					id="email"
+					placeholder="Digite seu email"
+					required>
+		</p>
+		
+		<p>
+			<label for=" telefone"> Telefone:</label>
+			<input type="telefone"
+					name="telefone"
+					id="telefone"
+					placeholder="Digite seu Telefone"
+					required>
+		</p>
+		<br>
+		
+		<h4>Selecione o gênero do seu pet </h4>
+		<p>
+			<select id="cars" name="cars">
+			<option value="fêmea">Fêmea</option>
+			<option value="macho">Macho </option>
+			</select>
+		</p>
+		
+		<br>
+			
+		</p>
+		<h4>Selecione o porte do seu animal </h4>
+		<p>
+		
+			<select id="portedoseuanimal" name="portedoseuanimal">
+			<option value="pequeno">Pequeno</option>
+			<option value="médio">Médio </option>
+			<option value="grande">Grande</option>
+			</select>
+		</p>
+		
+		<br>
+
+		<h4>Selecione o tipo do seu animal </h4>
+		<p>
+			<input type="checkbox" id="vehicle1" name="vehicle1" value="cachorro">
+			<label for="vehicle1">Cachorro</label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="gato">
+			<label for="vehicle2"> Gato </label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="coelho">
+			<label for="vehicle2"> Coelho</label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="hamster">
+			<label for="vehicle2"> Hamster</label><br>
+			<label for="outro"> Outro: </label>
+			<input type="text"
+					name="outro"
+					id="outro"
+					placeholder="Digite o tipo do seu pet " >
+		</p>
+		
+		<br>
+		
+		<h4>Selecione o tipo de serviço desejado </h4>
+		<p>
+			<input type="checkbox" id="vehicle1" name="vehicle1" value="banho">
+			<label for="vehicle1">Banho</label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="tosadepelos">
+			<label for="vehicle2"> Tosa de Pelos </label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="tosahigiênica">
+			<label for="vehicle2"> Tosa Higiênica </label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="cortedeunhas">
+			<label for="vehicle2"> Corte de unhas</label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="escovarosdentes">
+			<label for="vehicle2"> Escovar os dentes </label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="atendimentomédico">
+			<label for="vehicle2"> Atendimento Médico</label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="exames">
+			<label for="vehicle2"> Exames</label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="hospedagem">
+			<label for="vehicle2">Hospedagem </label><br>
+		</p>
+		
+		<br>
+		
+		<h4>Selecione a data que deseja realizar o atendimento </h4>
+
+			<label for="datadoatendimento">Data do Atendimento:</label>
+			<input type="date" id="datadoatendimento" name="datadoatendimento">
+		
+
+		<br>
+		<br>
+		
+		<h4>Selecione o horário que deseja realizar o atendimento </h4>
+		
+			<label for="appt">Selecione o horário:</label>
+			<input type="time" id="appt" name="appt">
+		
+		<br>
+		<br>
+		
+		<h4>Indique aqui alguma informação que deseja nos informar a respeito do seu pet </h4>
+		<p>
+		
+			<textarea name="message" rows="8" cols="70">Indique aqui alguma informação que deseja nos informar a respeito do seu pet.</textarea>
+			<br><br>
+		</p>
+			
+		<p>
+	
+			<input type="submit"
+					value="Enviar">
+		
+		</p>
+			
+		</form>
+</body>
+</html>
